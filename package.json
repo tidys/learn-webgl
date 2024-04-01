@@ -1,0 +1,19 @@
+{
+  "name": "learn-webgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsc --watch | mini-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidys/learn-webgl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tidys/learn-webgl/issues"
+  },
+  "homepage": "https://github.com/tidys/learn-webgl#readme"
+}
