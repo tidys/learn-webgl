@@ -1,6 +1,11 @@
 {
   "files.autoSave": "onFocusChange",
   "[html]": {
+    "prettier.printWidth": 8000,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "prettier.printWidth": 8000,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
