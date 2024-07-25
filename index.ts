@@ -95,7 +95,9 @@ function download(pixels: Uint8Array, width: number, height: number) {
   var canvas = document.createElement("canvas");
   canvas.width = width; // 设置Canvas宽度
   canvas.height = height; // 设置Canvas高度
-
+  //   var dd = canvas.getContext("webgl");
+  //   var ext = dd?.getExtension("WEBGL_compressed_texture_astc");
+  //   ext?.COMPRESSED_RGBA_ASTC_10x10_KHR;
   // 获取Canvas上下文
   var ctx = canvas.getContext("2d");
   if (!ctx) return;
@@ -119,7 +121,7 @@ function download(pixels: Uint8Array, width: number, height: number) {
   img.src = canvas.toDataURL("image/png");
 
   // 将图像对象添加到页面中（可选）
-  document.body.appendChild(img);
+  //   document.body.appendChild(img);
 
   // 如果需要保存图片，可以使用以下代码
   var link = document.createElement("a");
